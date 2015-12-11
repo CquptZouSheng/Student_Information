@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="那些年，我遇上了个逗B"
+        android:textColor="#a1faaf"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/location1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/title1"
+        android:layout_marginLeft="10dp"
+        android:text="那个逗B的名字，叫"
+        android:textColor="#a3cbff" />
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/title1"
+        android:layout_toRightOf="@+id/location1"
+        android:textColor="#a3cbff" />
+    <TextView
+        android:id="@+id/title2"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textColor="#fe848c"
+        android:text="ta非要求勾搭~~~"/>
+    <TextView
+        android:id="@+id/location2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/title2"
+        android:layout_marginLeft="100dp"
+        android:text="ta的电话是"
+        android:textColor="#eff939" />
+    <TextView
+        android:id="@+id/QQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title2"
+        android:layout_toRightOf="@+id/location2"
+        android:textSize="20sp"
+        android:textColor="#eff939" />
+    <TextView
+        android:id="@+id/title3"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="还要求调戏~~~"
+        android:textColor="#b376fc"
+        android:layout_below="@+id/QQ"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/location3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/title3"
+        android:layout_marginLeft="10dp"
+        android:text="ta的QQ是"
+        android:textColor="#df780c" />
+    <TextView
+        android:id="@+id/Telephonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title3"
+        android:layout_toRightOf="@+id/location3"
+        android:textSize="20sp"
+        android:textColor="#df780c" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="未完待续......"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/Telephonenumber"
+        android:layout_marginLeft="10dp"/>
+</RelativeLayout>
